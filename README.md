@@ -26,13 +26,6 @@ underperformance can be subtler (e.g. plausible-looking failed attempts).
 Ran `truthfulqa/truthful_qa` end-to-end on `gpt2`. Log: `logs/[file].eval`
 Command: `inspect eval inspect_evals/truthfulqa/truthful_qa --model <hf/Qwen/Qwen2.5-0.5B> || < hf/openai-community/gpt2> --limit 10 --max-tokens 750`
 
-## Repo layout
-- `sandbagging/task.py` — Task with both prompt conditions
-- `sandbagging/scorer.py` — model-graded scorer + validation
-- `sandbagging/prompts/` — scenario variants
-- `logs/` — Inspect eval logs
-- `analysis/` — performance-gap analysis, transcript review
-
 ## Roadmap
 - [x] Inspect API + reproduction of `truthfulqa/truthful_qa`
 - [ ] Prompt-condition scaffold
