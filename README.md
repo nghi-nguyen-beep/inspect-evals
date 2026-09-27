@@ -1,10 +1,10 @@
 # Intro to Evals
 
-Current repository supports discovery on evals on Macbook Air
+Current repository for learning evals (that's runnable on Macbook Air without crashing it). We use a sample dataset containing 2 questions that tests general look-up
 
 Only two models could run on local without crashing
-hf/Qwen/Qwen2.5-0.5B
-hf/openai-community/gpt2
+- hf/Qwen/Qwen2.5-0.5B
+- hf/openai-community/gpt2
 
 ## Installation
 ```python
@@ -24,4 +24,8 @@ inspect eval simpleqa.py --model hf/openai-community/gpt2
 inspect view
 ```
 
+## Resources
+This repo was built off of AI Security Institute open source
+
+https://inspect.aisi.org.uk/
 https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/gdm_intercode_ctf
