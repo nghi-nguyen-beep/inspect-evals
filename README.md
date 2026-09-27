@@ -1,6 +1,6 @@
 # Intro to Evals
 
-Current repository for learning evals (that's runnable on Macbook Air without crashing it). We use a sample dataset containing 2 questions that tests general look-up
+Current repository for learning evals (that's runnable on Macbook Air without crashing it). We use a sample dataset containing 5 questions that tests general look-up capabilities. 
 
 Only two models could run on local without crashing
 - hf/Qwen/Qwen2.5-0.5B
