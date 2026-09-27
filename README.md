@@ -6,6 +6,13 @@ Only two models could run on local without crashing
 hf/Qwen/Qwen2.5-0.5B
 hf/openai-community/gpt2
 
+## Installation
+```python
+pyenv virtualenv 3.10 inspect-evals
+pyenv activate inspect-evals
+pip install -r requirements.txt
+```
+
 ## How to Run Evals
 
 ```python
