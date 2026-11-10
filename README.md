@@ -23,8 +23,7 @@ underperformance can be subtler (e.g. plausible-looking failed attempts).
 - **Models:** Qwen2.5-0.5B, gpt2
 
 ## Reproduction (done)
-Ran `truthfulqa/truthful_qa` end-to-end on `gpt2`. Log: `logs/[file].eval`
-Command: `inspect eval inspect_evals/truthfulqa/truthful_qa --model <hf/Qwen/Qwen2.5-0.5B> || < hf/openai-community/gpt2> --limit 10 --max-tokens 750`
+Command: `inspect eval simpleqa.py --model hf/Qwen/Qwen2.5-3B-Instruct`
 
 ## Roadmap
 - [x] Inspect API + reproduction of `truthfulqa/truthful_qa`

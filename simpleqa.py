@@ -8,7 +8,7 @@ def simpleqa():
     return Task(
         dataset=hf_dataset(
             "codelion/SimpleQA-Verified",
-            split="train[:5]",
+            split="train[1:20]",
             sample_fields=FieldSpec(
                 input="problem",
                 target="answer",
